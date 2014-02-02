@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+require 'open-uri'
+require 'yaml'
+require 'i18n'
+
+doc = Nokogiri::HTML(open('http://vagrantbox.es'))
+doc.css('tbody tr').each do |row|
+  cells = row.css('th, td')
+
+  data = {
+    'name'     => cells[0].content,
+    'provider' => cells[1].content,
+    'link'     => cells[2].content,
+    'size'     => cells[3].content
+  }
+  today = Time.now.strftime('%Y-%m-%d')
+
+  file_name = [I18n.transliterate(data['name']), I18n.transliterate(data['provider'])]
+  file_name = file_name.join('-').downcase.gsub(/(\s+|\(|\))/, '-').gsub(/-+/, '-')
+  file_name = "#{today}-#{file_name}.md"
+
+  puts file_name
+  puts YAML.dump(data)
+end
