@@ -8,19 +8,23 @@ require 'i18n'
 doc = Nokogiri::HTML(open('http://vagrantbox.es'))
 doc.css('tbody tr').each do |row|
   cells = row.css('th, td')
-
   data = {
-    'name'     => cells[0].content,
-    'provider' => cells[1].content,
-    'link'     => cells[2].content,
-    'size'     => cells[3].content
+    'name'        => cells[0].content,
+    'description' => cells[0].inner_html,
+    'provider'    => cells[1].content,
+    'link'        => cells[2].content,
+    'size'        => cells[3].content,
+    'category'    => 'boxes'
   }
+
   today = Time.now.strftime('%Y-%m-%d')
 
   file_name = [I18n.transliterate(data['name']), I18n.transliterate(data['provider'])]
-  file_name = file_name.join('-').downcase.gsub(/(\s+|\(|\))/, '-').gsub(/-+/, '-')
-  file_name = "#{today}-#{file_name}.md"
+  file_name = file_name.join('-').downcase.gsub(/(\s+|\(|\)|\.|,|\/)/, '-')
+  file_name = "#{today}-#{file_name}.md".gsub(/-+/, '-')
 
-  puts file_name
-  puts YAML.dump(data)
+  File.open("_posts/boxes/#{file_name}", 'w') do |file|
+    file.puts YAML.dump(data)
+    file.puts "---"
+  end
 end
