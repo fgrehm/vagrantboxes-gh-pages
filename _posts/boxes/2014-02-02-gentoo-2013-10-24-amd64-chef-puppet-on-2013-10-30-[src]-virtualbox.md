@@ -8,4 +8,8 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/qubuaqiizvfpsyx/gentoo-20131024-amd64.box
 size: 416.4 MB
 category: boxes
+tags:
+- gentoo
+- puppet
+- chef
 ---

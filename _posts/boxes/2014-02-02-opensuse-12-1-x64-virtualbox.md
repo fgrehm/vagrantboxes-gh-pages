@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://github.com/jtperry/OpenSuseVagrantBox
 size: 665MB
 category: boxes
+tags:
+- opensuse
 ---

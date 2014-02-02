@@ -5,4 +5,8 @@ provider: VirtualBox
 link: https://dl.dropbox.com/s/613uhl43ekqzami/oraclelinux-6-x86_64.box
 size: 684MB
 category: boxes
+tags:
+- oracle
+- puppet
+- chef
 ---

@@ -5,4 +5,8 @@ provider: VirtualBox
 link: https://dl.dropbox.com/s/wsib87iudbzl56a/oraclelinux-5-x86_64.box
 size: 598MB
 category: boxes
+tags:
+- oracle
+- puppet
+- chef
 ---

@@ -7,4 +7,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/odnew2tnliqft9o/debian7-openresty.box
 size: 355MB
 category: boxes
+tags:
+- debian
 ---

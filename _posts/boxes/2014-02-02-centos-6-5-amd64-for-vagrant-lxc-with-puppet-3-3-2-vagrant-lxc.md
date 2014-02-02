@@ -5,4 +5,7 @@ provider: Vagrant-LXC
 link: https://dl.dropboxusercontent.com/s/x1085661891dhkz/lxc-centos6.5-2013-12-02.box
 size: 435M
 category: boxes
+tags:
+- centos
+- puppet
 ---

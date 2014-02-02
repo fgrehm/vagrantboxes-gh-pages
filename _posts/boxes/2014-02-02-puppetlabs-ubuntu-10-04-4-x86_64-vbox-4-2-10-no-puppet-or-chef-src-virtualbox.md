@@ -6,4 +6,6 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-10044-x64-vbox4210-nocm.box
 size: 313MB
 category: boxes
+tags:
+- ubuntu
 ---

@@ -7,4 +7,8 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/9213047/arch64_2013-07-28.box
 size: 533MB
 category: boxes
+tags:
+- arch
+- puppet
+- chef
 ---

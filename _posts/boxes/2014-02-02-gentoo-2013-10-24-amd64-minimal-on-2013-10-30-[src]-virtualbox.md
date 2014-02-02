@@ -8,4 +8,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/mfurnvstqoj8w47/gentoo-20131024-amd64-minimal.box
 size: 279.7 MB
 category: boxes
+tags:
+- gentoo
 ---

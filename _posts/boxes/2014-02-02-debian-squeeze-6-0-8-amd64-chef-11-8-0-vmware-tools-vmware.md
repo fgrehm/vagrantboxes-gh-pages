@@ -5,4 +5,7 @@ provider: VMware
 link: http://shopify-vagrant.s3.amazonaws.com/debian-6.0.8_vmware.box
 size: 428.3MB
 category: boxes
+tags:
+- debian
+- chef
 ---

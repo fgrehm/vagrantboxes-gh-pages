@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/debian-70rc1-x64-vbox4210.box
 size: 302MB
 category: boxes
+tags:
+- debian
+- puppet
 ---

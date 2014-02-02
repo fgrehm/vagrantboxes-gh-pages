@@ -7,4 +7,8 @@ provider: VirtualBox
 link: https://www.dropbox.com/s/si19tbftilcuipz/debian-7.0-amd64.box
 size: 302MB
 category: boxes
+tags:
+- debian
+- puppet
+- chef
 ---

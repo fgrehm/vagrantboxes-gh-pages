@@ -7,4 +7,6 @@ provider: VMware
 link: http://nitron-vagrant.s3-website-us-east-1.amazonaws.com/vagrant_ubuntu_12.04.3_amd64_vmware.box
 size: 447MB
 category: boxes
+tags:
+- ubuntu
 ---

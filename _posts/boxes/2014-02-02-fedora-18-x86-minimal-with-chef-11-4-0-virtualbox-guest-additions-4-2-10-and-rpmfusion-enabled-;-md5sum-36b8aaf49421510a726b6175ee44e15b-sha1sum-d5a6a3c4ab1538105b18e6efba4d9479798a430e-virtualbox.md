@@ -11,4 +11,7 @@ provider: VirtualBox
 link: http://static.stasiak.at/fedora-18-x86-2.box
 size: 635MB
 category: boxes
+tags:
+- fedora
+- chef
 ---

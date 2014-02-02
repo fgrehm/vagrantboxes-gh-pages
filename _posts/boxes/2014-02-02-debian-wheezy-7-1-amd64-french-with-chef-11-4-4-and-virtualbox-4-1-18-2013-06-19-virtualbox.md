@@ -6,4 +6,7 @@ provider: VirtualBox
 link: http://downloads.shadoware.org/wheezy64.box
 size: 388MB
 category: boxes
+tags:
+- debian
+- chef
 ---

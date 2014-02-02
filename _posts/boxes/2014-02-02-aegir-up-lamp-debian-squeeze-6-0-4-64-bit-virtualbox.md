@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://ergonlogic.com/files/boxes/debian-LAMP-current.box
 size: 388MB
 category: boxes
+tags:
+- debian
 ---

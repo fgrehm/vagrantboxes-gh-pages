@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/12089300/VirtualBox/openbsd53_amd64.box
 size: 303MB
 category: boxes
+tags:
+- openbsd
 ---

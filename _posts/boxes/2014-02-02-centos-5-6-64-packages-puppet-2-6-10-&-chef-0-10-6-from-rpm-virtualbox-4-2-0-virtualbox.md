@@ -6,4 +6,8 @@ provider: VirtualBox
 link: https://dl.dropbox.com/u/7196/vagrant/CentOS-56-x64-packages-puppet-2.6.10-chef-0.10.6.box
 size: 420MB
 category: boxes
+tags:
+- centos
+- puppet
+- chef
 ---

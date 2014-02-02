@@ -7,4 +7,8 @@ provider: VirtualBox
 link: http://dl.dropbox.com/u/40989391/vagrant-boxes/debian-squeeze-i386.box
 size: 496.78MB
 category: boxes
+tags:
+- debian
+- puppet
+- chef
 ---

@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://files.vagrantup.com/lucid32.box
 size: 261MB
 category: boxes
+tags:
+- ubuntu
 ---

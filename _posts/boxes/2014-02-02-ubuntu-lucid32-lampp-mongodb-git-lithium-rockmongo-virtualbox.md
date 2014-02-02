@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://www.hitarthindia.com/VM/lampp-mongo-git-lithium-rock.box
 size: 568MB
 category: boxes
+tags:
+- ubuntu
 ---

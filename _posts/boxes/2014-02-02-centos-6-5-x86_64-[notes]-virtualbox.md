@@ -6,4 +6,6 @@ provider: VirtualBox
 link: https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box
 size: 271.2 MiB
 category: boxes
+tags:
+- centos
 ---

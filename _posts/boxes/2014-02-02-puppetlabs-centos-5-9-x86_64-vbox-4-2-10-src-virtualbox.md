@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/centos-59-x64-vbox4210.box
 size: 530MB
 category: boxes
+tags:
+- centos
+- puppet
 ---

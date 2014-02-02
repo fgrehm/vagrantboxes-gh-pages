@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://opscode-vagrant-boxes.s3.amazonaws.com/centos5-gems.box
 size: 458MB
 category: boxes
+tags:
+- centos
 ---

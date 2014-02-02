@@ -7,4 +7,6 @@ provider: VirtualBox
 link: https://www.dropbox.com/s/gxouugzbnjlny1k/debian-7.0-amd64-minimal.box
 size: 280MB
 category: boxes
+tags:
+- debian
 ---

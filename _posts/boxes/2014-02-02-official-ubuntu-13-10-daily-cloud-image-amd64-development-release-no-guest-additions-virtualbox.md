@@ -7,4 +7,6 @@ provider: VirtualBox
 link: http://cloud-images.ubuntu.com/vagrant/saucy/current/saucy-server-cloudimg-amd64-vagrant-disk1.box
 size: 309M
 category: boxes
+tags:
+- ubuntu
 ---

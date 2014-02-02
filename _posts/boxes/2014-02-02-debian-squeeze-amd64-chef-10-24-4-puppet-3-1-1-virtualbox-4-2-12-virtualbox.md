@@ -5,4 +5,8 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/13054557/vagrant_boxes/debian-squeeze.box
 size: 287MB
 category: boxes
+tags:
+- debian
+- puppet
+- chef
 ---

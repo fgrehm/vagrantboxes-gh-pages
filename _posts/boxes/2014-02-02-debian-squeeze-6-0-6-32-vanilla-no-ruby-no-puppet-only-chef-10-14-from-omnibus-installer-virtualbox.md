@@ -7,4 +7,6 @@ provider: VirtualBox
 link: https://dl.dropbox.com/u/2289657/squeeze32-vanilla.box
 size: 276MB
 category: boxes
+tags:
+- debian
 ---

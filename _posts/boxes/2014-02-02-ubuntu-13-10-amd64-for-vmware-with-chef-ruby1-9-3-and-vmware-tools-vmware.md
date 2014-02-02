@@ -5,4 +5,7 @@ provider: VMWare
 link: http://brennovich.s3.amazonaws.com/saucy64_vmware_fusion.box
 size: 536M
 category: boxes
+tags:
+- ubuntu
+- chef
 ---

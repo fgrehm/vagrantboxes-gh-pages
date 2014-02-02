@@ -7,4 +7,8 @@ provider: VirtualBox
 link: http://grahamc.com/vagrant/ubuntu-12.04-omnibus-chef.box
 size: 372M
 category: boxes
+tags:
+- ubuntu
+- puppet
+- chef
 ---

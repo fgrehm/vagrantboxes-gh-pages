@@ -7,4 +7,8 @@ provider: VirtualBox
 link: http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-i386-v20130731.box
 size: 459MB
 category: boxes
+tags:
+- centos
+- puppet
+- chef
 ---

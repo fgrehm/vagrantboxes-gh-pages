@@ -8,4 +8,5 @@ provider: VirtualBox
 link: http://iris.hosting.lv/freebsd-9.2-i386.box
 size: 360MB
 category: boxes
+tags: []
 ---

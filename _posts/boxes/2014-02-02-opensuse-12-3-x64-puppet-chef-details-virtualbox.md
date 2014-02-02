@@ -5,4 +5,8 @@ provider: VirtualBox
 link: http://bit.ly/openSUSE-12-3-virtualbox-box
 size: 527MB
 category: boxes
+tags:
+- opensuse
+- puppet
+- chef
 ---

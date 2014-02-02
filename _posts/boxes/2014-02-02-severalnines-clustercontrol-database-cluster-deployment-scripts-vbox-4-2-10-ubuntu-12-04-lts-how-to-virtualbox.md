@@ -7,4 +7,6 @@ provider: VirtualBox
 link: https://googledrive.com/host/0B-J3zLLFd9HMLUhkckZBWi1xVlE/s9s_clustercontrol.box
 size: 390MB
 category: boxes
+tags:
+- ubuntu
 ---

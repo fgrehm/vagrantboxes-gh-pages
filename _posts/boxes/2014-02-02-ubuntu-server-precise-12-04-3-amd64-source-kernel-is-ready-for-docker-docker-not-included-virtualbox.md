@@ -7,4 +7,6 @@ provider: Virtualbox
 link: https://oss-binaries.phusionpassenger.com/vagrant/boxes/ubuntu-12.04.3-amd64-vbox.box
 size: 547MB
 category: boxes
+tags:
+- ubuntu
 ---

@@ -5,4 +5,8 @@ provider: VirtualBox
 link: https://seedrs.box.com/shared/static/6cg94mkdtuz3baoy8zl8.box
 size: 717MB
 category: boxes
+tags:
+- gentoo
+- puppet
+- chef
 ---

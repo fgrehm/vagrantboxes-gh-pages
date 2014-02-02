@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://opscode-vagrant-boxes.s3.amazonaws.com/ubuntu10.04-gems.box
 size: 367MB
 category: boxes
+tags:
+- ubuntu
 ---

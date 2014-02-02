@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://downloads.sourceforge.net/project/vagrant-archlinux/vagrant-archlinux.box
 size: 512M
 category: boxes
+tags:
+- arch
 ---

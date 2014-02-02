@@ -7,4 +7,7 @@ provider: VirtualBox
 link: http://grahamc.com/vagrant/ubuntu-12.04.2-i386-chef-11-omnibus.box
 size: 428M
 category: boxes
+tags:
+- ubuntu
+- chef
 ---

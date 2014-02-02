@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://tom.davidson.me.uk/dev/vagrant/centos63-32.box
 size: 443MB
 category: boxes
+tags:
+- centos
+- chef
 ---

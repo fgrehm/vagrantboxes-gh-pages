@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://cloud-images.ubuntu.com/vagrant/quantal/current/quantal-server-cloudimg-i386-vagrant-disk1.box
 size: 299M
 category: boxes
+tags:
+- ubuntu
 ---

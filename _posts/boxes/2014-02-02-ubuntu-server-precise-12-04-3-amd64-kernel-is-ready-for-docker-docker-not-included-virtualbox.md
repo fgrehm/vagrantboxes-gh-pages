@@ -7,4 +7,6 @@ provider: Virtualbox
 link: http://nitron-vagrant.s3-website-us-east-1.amazonaws.com/vagrant_ubuntu_12.04.3_amd64_virtualbox.box
 size: 380MB
 category: boxes
+tags:
+- ubuntu
 ---

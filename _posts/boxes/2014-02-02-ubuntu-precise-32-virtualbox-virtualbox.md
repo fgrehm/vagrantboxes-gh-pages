@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://files.vagrantup.com/precise32.box
 size: 299MB
 category: boxes
+tags:
+- ubuntu
 ---

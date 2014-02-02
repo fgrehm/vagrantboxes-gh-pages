@@ -7,4 +7,6 @@ provider: VirtualBox
 link: http://tools.swergroup.com/downloads/wheezy32.box
 size: 188MB
 category: boxes
+tags:
+- debian
 ---

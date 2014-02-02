@@ -8,4 +8,8 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/xfl63k64zliixid/gentoo-20131029-i686.box
 size: 413.1 MB
 category: boxes
+tags:
+- gentoo
+- puppet
+- chef
 ---

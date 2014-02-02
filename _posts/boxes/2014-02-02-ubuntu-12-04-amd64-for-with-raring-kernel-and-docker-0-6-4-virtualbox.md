@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://bit.ly/dockerprecise64
 size: 374M
 category: boxes
+tags:
+- ubuntu
 ---

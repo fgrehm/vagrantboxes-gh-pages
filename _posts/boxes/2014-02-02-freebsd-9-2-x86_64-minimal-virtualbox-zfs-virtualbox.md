@@ -5,4 +5,5 @@ provider: VirtualBox
 link: https://wunki.org/files/freebsd-9.2-amd64-wunki.box
 size: 226MB
 category: boxes
+tags: []
 ---

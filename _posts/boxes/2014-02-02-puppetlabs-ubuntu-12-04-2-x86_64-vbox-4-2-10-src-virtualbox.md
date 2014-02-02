@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210.box
 size: 400MB
 category: boxes
+tags:
+- ubuntu
+- puppet
 ---

@@ -5,4 +5,7 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/86066173/fedora-19.box
 size: 400MB
 category: boxes
+tags:
+- fedora
+- puppet
 ---

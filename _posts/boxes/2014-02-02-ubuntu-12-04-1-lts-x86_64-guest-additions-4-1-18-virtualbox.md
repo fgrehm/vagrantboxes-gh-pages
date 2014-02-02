@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://dl.dropbox.com/u/1537815/precise64.box
 size: 568MB
 category: boxes
+tags:
+- ubuntu
 ---

@@ -5,4 +5,7 @@ provider: VMware
 link: http://shopify-vagrant.s3.amazonaws.com/ubuntu-12.04_vmware.box
 size: 470.7MB
 category: boxes
+tags:
+- ubuntu
+- chef
 ---

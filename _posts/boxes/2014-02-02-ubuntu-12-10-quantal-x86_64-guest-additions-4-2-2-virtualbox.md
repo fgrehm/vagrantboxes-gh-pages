@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box
 size: 402MB
 category: boxes
+tags:
+- ubuntu
 ---

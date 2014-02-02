@@ -6,4 +6,8 @@ provider: VMware
 link: https://dl.dropbox.com/u/5721940/vagrant-boxes/vagrant-centos-6.4-x86_64-vmware_fusion.box
 size: 545.94MB
 category: boxes
+tags:
+- centos
+- puppet
+- chef
 ---

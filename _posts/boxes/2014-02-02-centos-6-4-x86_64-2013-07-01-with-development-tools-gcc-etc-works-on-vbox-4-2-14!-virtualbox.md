@@ -7,4 +7,6 @@ provider: VirtualBox
 link: http://shonky.info/centos64.box
 size: 519.1MB
 category: boxes
+tags:
+- centos
 ---

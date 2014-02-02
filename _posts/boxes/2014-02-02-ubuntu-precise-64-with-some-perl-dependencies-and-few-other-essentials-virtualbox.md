@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://dl.dropbox.com/u/5595111/precise64-kohadeps.box
 size: 413MB
 category: boxes
+tags:
+- ubuntu
 ---

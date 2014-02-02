@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210-nocm.box
 size: 611MB
 category: boxes
+tags:
+- fedora
 ---

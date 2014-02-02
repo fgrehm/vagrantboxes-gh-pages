@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box
 size: 521MB
 category: boxes
+tags:
+- centos
 ---

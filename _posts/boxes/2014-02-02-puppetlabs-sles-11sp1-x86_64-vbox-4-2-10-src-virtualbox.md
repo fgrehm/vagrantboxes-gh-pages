@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/sles-11sp1-x64-vbox4210.box
 size: 519MB
 category: boxes
+tags:
+- puppet
 ---

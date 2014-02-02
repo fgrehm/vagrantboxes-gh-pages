@@ -7,4 +7,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/o5i10hcu57jamg8/ubuntu64-ruby2.box
 size: 729MB
 category: boxes
+tags:
+- ubuntu
 ---

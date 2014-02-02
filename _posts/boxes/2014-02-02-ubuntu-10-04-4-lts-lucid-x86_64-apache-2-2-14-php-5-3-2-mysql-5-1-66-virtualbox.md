@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://dl.dropbox.com/u/14741389/vagrantboxes/lucid64-lamp.box
 size: 343MB
 category: boxes
+tags:
+- ubuntu
 ---

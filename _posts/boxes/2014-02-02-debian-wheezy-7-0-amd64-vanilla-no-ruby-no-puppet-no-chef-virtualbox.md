@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/xymcvez85i29lym/vagrant-debian-wheezy64.box
 size: 242MB
 category: boxes
+tags:
+- debian
 ---

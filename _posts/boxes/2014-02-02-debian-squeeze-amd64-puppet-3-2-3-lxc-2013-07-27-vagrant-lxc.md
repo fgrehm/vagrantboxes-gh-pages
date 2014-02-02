@@ -5,4 +5,7 @@ provider: Vagrant-LXC
 link: https://dl.dropboxusercontent.com/u/67225617/lxc-vagrant/lxc-squeeze64-puppet3-2013-07-27.box
 size: 106.17MB
 category: boxes
+tags:
+- debian
+- puppet
 ---

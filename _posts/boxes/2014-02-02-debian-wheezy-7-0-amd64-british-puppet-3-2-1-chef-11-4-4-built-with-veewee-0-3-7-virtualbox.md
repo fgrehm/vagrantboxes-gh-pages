@@ -7,4 +7,8 @@ provider: VirtualBox
 link: http://vagrantboxes.footballradar.com/wheezy64.box
 size: 295.8MB
 category: boxes
+tags:
+- debian
+- puppet
+- chef
 ---

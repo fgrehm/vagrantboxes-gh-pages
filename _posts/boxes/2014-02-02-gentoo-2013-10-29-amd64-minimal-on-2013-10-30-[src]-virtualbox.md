@@ -8,4 +8,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/s/0e23qmbo97wb5x2/gentoo-20131029-i686-minimal.box
 size: 266.2 MB
 category: boxes
+tags:
+- gentoo
 ---

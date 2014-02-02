@@ -7,4 +7,8 @@ provider: VirtualBox
 link: http://public.sphax3d.org/vagrant/squeeze64.box
 size: 294.19MB
 category: boxes
+tags:
+- debian
+- puppet
+- chef
 ---

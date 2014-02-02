@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://dl.dropbox.com/u/10544201/slackware-13.37.box
 size: 2200MB
 category: boxes
+tags:
+- slackware
 ---

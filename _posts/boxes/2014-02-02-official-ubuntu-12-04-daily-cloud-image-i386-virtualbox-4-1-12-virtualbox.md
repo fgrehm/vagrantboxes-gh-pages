@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-i386-vagrant-disk1.box
 size: 329M
 category: boxes
+tags:
+- ubuntu
 ---

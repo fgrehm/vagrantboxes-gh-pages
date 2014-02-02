@@ -5,4 +5,7 @@ provider: VMWare
 link: http://shopify-vagrant.s3.amazonaws.com/ubuntu-13.10_vmware.box
 size: 501MB
 category: boxes
+tags:
+- ubuntu
+- chef
 ---

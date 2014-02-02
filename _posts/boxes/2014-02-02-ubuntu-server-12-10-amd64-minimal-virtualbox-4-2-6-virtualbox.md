@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://goo.gl/wxdwM
 size: 354MB
 category: boxes
+tags:
+- ubuntu
 ---

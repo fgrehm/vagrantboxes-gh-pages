@@ -5,4 +5,7 @@ provider: VMware
 link: http://grahamc.com/vagrant/ubuntu-12.04.2-server-amd64-vmware-fusion.box
 size: 446M
 category: boxes
+tags:
+- ubuntu
+- chef
 ---

@@ -5,4 +5,8 @@ provider: VirtualBox
 link: http://goo.gl/8kWkm
 size: 267MB
 category: boxes
+tags:
+- ubuntu
+- puppet
+- chef
 ---

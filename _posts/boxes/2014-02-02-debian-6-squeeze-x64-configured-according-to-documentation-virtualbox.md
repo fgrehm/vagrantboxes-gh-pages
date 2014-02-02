@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://www.emken.biz/vagrant-boxes/debsqueeze64.box
 size: 408MB
 category: boxes
+tags:
+- debian
 ---

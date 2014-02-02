@@ -7,4 +7,8 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/4387941/vagrant-boxes/ubuntu-13.04-mini-i386.box
 size: 420MB
 category: boxes
+tags:
+- ubuntu
+- puppet
+- chef
 ---

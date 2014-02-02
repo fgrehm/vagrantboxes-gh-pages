@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210.box
 size: 596MB
 category: boxes
+tags:
+- fedora
+- puppet
 ---

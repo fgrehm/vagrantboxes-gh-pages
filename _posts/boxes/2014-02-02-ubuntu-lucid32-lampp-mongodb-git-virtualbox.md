@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://www.hitarthindia.com/VM/lampp-mongo-git.box
 size: 566MB
 category: boxes
+tags:
+- ubuntu
 ---

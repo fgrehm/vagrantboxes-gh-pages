@@ -5,4 +5,6 @@ provider: VirtualBox
 link: https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box
 size: 295MB
 category: boxes
+tags:
+- debian
 ---

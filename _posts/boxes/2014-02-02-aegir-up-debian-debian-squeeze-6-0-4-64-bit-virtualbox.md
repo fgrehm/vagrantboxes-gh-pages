@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://ergonlogic.com/files/boxes/debian-current.box
 size: 283MB
 category: boxes
+tags:
+- debian
 ---

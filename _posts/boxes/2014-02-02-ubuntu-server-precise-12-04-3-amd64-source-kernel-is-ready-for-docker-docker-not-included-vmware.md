@@ -7,4 +7,6 @@ provider: VMware
 link: https://oss-binaries.phusionpassenger.com/vagrant/boxes/ubuntu-12.04.3-amd64-vmwarefusion.box
 size: 612MB
 category: boxes
+tags:
+- ubuntu
 ---

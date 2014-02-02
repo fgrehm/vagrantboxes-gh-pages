@@ -5,4 +5,7 @@ provider: VirtualBox
 link: http://download.frameos.org/sl6-64-chefclient-0.10.box
 size: 459MB
 category: boxes
+tags:
+- chef
+- scientific
 ---

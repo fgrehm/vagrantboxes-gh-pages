@@ -5,4 +5,8 @@ provider: VirtualBox
 link: https://dl.dropbox.com/s/zmitpteca72sjpx/oracle64.box
 size: 612MB
 category: boxes
+tags:
+- oracle
+- puppet
+- chef
 ---

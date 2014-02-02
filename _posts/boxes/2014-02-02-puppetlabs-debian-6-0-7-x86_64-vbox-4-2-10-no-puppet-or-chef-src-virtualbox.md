@@ -5,4 +5,6 @@ provider: VirtualBox
 link: http://puppet-vagrant-boxes.puppetlabs.com/debian-607-x64-vbox4210-nocm.box
 size: 249MB
 category: boxes
+tags:
+- debian
 ---

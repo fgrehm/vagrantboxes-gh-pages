@@ -5,4 +5,7 @@ provider: VirtualBox
 link: https://s3.amazonaws.com/itmat-public/centos-6.3-chef-10.14.2.box
 size: 445MB
 category: boxes
+tags:
+- centos
+- chef
 ---
