@@ -33,9 +33,10 @@ title: Your New Jekyll Site
         <tr><th>Name</th><th>Provider</th><th>URL</th><th class="sorttable_numeric">Size</th></tr>
       </thead>
       <tbody>
-        {% for box in site.categories.boxes %}
+        {% assign boxes = site.categories.boxes | sort: 'name' %}
+        {% for box in boxes %}
           <tr>
-            <th scope="row">{{ box.name }}</th>
+            <th scope="row">{{ box.description }}</th>
             <td>{{ box.provider }}</td>
             <td>{{ box.link }}</td>
             <td>{{ box.size }}</td>
