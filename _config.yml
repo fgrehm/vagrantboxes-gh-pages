@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Comunity contributed Vagrant boxes
 markdown: redcarpet
 pygments: true
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'CNAME']
