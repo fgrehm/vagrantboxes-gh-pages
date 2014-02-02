@@ -5,6 +5,11 @@ require 'open-uri'
 require 'yaml'
 require 'i18n'
 
+POSSIBLE_TAGS = %w(
+  ubuntu debian arch centos freebds fedora funtoo gentoo omnios openbsd openmandriva
+  opensuse oracle puppet chef scientific slackware
+)
+
 doc = Nokogiri::HTML(open('http://vagrantbox.es'))
 doc.css('tbody tr').each do |row|
   cells = row.css('th, td')
@@ -14,8 +19,23 @@ doc.css('tbody tr').each do |row|
     'provider'    => cells[1].content,
     'link'        => cells[2].content,
     'size'        => cells[3].content,
-    'category'    => 'boxes'
+    'category'    => 'boxes',
   }
+
+  data['tags'] = POSSIBLE_TAGS.map do |tag|
+    tag if data['name'] =~ /#{tag}/i
+  end.compact
+
+  # Handle some false positives
+  data['tags'].delete('puppet') if data['name'] =~ /no puppet/i
+  data['tags'].delete('chef') if data['name'] =~ /no chef/i
+  if data['name'] =~ /no ruby\/puppet\/chef/i || data['name'] =~ /vanilla/i
+    data['tags'].delete('chef')
+    data['tags'].delete('puppet')
+  end
+  if data['name'] =~ / no puppet or chef/i
+    data['tags'].delete('chef')
+  end
 
   today = Time.now.strftime('%Y-%m-%d')
 
