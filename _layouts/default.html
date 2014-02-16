@@ -52,6 +52,20 @@
       $(window).resize(function() {
         clip.reposition();
       });
+
+      $(".filterable tr:has(td)").each(function(){
+        var t = $(this).text().toLowerCase();
+        $("<td class='indexColumn'></td>")
+        .hide().text(t).appendTo(this);
+      });
+      $("#FilterTextBox").keyup(function(){
+        var s = $(this).val().toLowerCase().split(" ");
+        $(".filterable tr:hidden").show();
+        $.each(s, function(){ if (this.trim()) {
+          $(".filterable tr:visible .indexColumn:not(:contains('" + this + "'))").parent().hide();
+        }});
+      });
+
     });
   </script>
   <style>
