@@ -61,9 +61,9 @@
       $("#FilterTextBox").keyup(function(){
         var s = $(this).val().toLowerCase().split(" ");
         $(".filterable tr:hidden").show();
-        $.each(s, function(){
-          $(".filterable tr:visible .indexColumn:not(:contains('"
-   + this + "'))").parent().hide();});
+        $.each(s, function(){ if (this.trim()) {
+          $(".filterable tr:visible .indexColumn:not(:contains('" + this + "'))").parent().hide();
+        }});
       });
 
     });
