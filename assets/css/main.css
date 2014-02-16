@@ -6,3 +6,4 @@ table.sortable thead {
     font-weight: bold;
     cursor: default;
 }
+table.hidable .tags { display: none; }
